@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ------------------------------------------------------------------
+# Project
+# ------------------------------------------------------------------
+.DS_Store
+
+# 생성 데이터(대용량): notebooks/01_generate_simulated_data.ipynb 실행으로 재생성
+# 생성에 필요한 입력 통계 파일 2개만 커밋
+data/*
+!data/행정구역별_성별_인구통계_2025.csv
+!data/visitor_stats_by_city_month.csv
+raw_data/visitor_data/
+
+# 노트북 실행 산출물(차트 PNG·집계 CSV), 폰트 다운로드 파일
+outputs/
+*.ttf
+
+# 편집기·작업용 파일
+.obsidian/
+*_backup.ipynb
